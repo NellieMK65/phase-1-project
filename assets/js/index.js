@@ -3,7 +3,7 @@ const neww = document.querySelector('#new .disp');
 const local = document.querySelector('#local .disp');
 
 function fetchData() {
-	return fetch('https://NellieMK65.github.io/assets/db.json')
+	return fetch('https://NellieMK65.github.io/db.json')
 		.then((response) => response.json())
 		.then((json) => json);
 }
