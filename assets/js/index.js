@@ -3,7 +3,7 @@ const neww = document.querySelector('#new .disp');
 const local = document.querySelector('#local .disp');
 
 function fetchData() {
-	return fetch('https://NellieMK65.github.io/db.json')
+	return fetch('https://my-json-server.typicode.com/asiamohammed/coctail-lovers/cocktails')
 		.then((response) => response.json())
 		.then((json) => json);
 }
